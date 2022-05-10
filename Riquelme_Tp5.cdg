@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Riquelme_Tp5">
+  <ClassDiagramComponents>
+    <Class name="Arreglo" package="" visibility="public" xPosition="542.0" yPosition="96.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="sumarLista" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int" name="lista"/>
+        </Method>
+        <Method name="buscarMayor" returnType="int" visibility="public" isStatic="true">
+          <Argument type="int" name="matriz"/>
+        </Method>
+        <Method name="cuentaVocales" returnType="int" visibility="public" isStatic="true">
+          <Argument type="String" name="vocales"/>
+        </Method>
+        <Method name="cuentaCarater" returnType="int" visibility="public" isStatic="true">
+          <Argument type="String" name="cadena"/>
+          <Argument type="char" name="caracter"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="main" package="" visibility="public" xPosition="134.0" yPosition="124.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation name="invoca" source="main" target="Arreglo" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
